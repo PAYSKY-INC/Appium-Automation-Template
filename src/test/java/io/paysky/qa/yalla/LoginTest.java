@@ -23,7 +23,7 @@ public class LoginTest {
     }
 
     @Test(priority = 1)
-    public void ValidLoginWithMsisdn() throws Exception {
+    public void ValidLoginWithMobileNumber() throws Exception {
 
         onboardingPage.clickOnSkipButton();
         loginPage.enterMobileNumberOnLoginScreen(Constant.EG_MOBILE_NUMBER);
