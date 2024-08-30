@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Yalla Super App
 
 ## Project Description
@@ -111,3 +112,6 @@ Use the command `git push origin <branch-name> `to push your local branch (<bran
 
 ## FAQs/ Common Issues
 Coming soon.
+=======
+# QC-Yalla-Merchant-App-Mobile
+>>>>>>> f16f33f2a0a0ed8a4ac44202ef39651c8b8e73b8
