@@ -1,0 +1,11 @@
+target/
+*.apk
+*.jar
+*.war
+*.ear
+*.properties
+*.xml
+*.yml
+*.json
+allure-results/
+allure-report/
