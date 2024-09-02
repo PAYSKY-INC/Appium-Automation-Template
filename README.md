@@ -1,9 +1,8 @@
-<<<<<<< HEAD
-# Yalla Super App
+# Yalla Merchant App
 
 ## Project Description
 
-Yalla Super App is a comprehensive digital platform offering a suite of services used daily, such as money transfers, bill payments, and order requests. This multifunctional platform operates free of additional charges through the use of the Yalla Card, integrating various financial and entertainment services into one seamless experience.
+Yalla Merchant App is a comprehensive digital platform offering a suite of services used daily, such as money transfers, bill payments, and order requests. This multifunctional platform operates free of additional charges through the use of the Yalla Card, integrating various financial and entertainment services into one seamless experience.
 
 ## Getting Started
 
@@ -20,7 +19,7 @@ Before you can run this project, you need to have the following installed:
 
 ### Installation
 
-1. Clone the project from Azure DevOps.
+1. Clone the project from github.
 2. Open the project in IntelliJ IDEA.
 3. Navigate to the `pom.xml` file, right-click it, select `Maven`, and then `Download dependencies`.
 4. Reload the project to ensure all dependencies are properly set up.
@@ -42,7 +41,7 @@ structure and coding style.
 **General:**
 
 1. **Branching:**
-    * **Preferred Approach:** Create a branch directly from the remote repository using AzureDevOps interface.
+    * **Preferred Approach:** Create a branch directly from the remote repository using github interface.
     * **Alternative Approach:**
         * Create a branch locally using `git checkout -b <branch-name>`.
         * Push the branch to the remote repository using `git push origin <branch-name>`.
@@ -86,14 +85,14 @@ This section outlines the steps involved in cloning a remote repository, creatin
 
 Open your terminal or command prompt.
 Use the git clone command followed by the URL of the remote repository you want to clone.
-Example: `git clone` https://devops.paysky.io/DefaultCollection/QA/_git/YallaSuperApp-QA
+Example: `git clone` https://github.com/PAYSKY-INC/QC-Yalla-Merchant-App-Mobile.git
 2. Create a Branch:
 
 There are two approaches to create a branch:
 
 A. Create a branch directly from the remote repository (recommended):
 
-Use the AzureDevOps interface to create a new branch from the desired location (e.g., main branch).
+Use the GitHub  interface to create a new branch from the desired location (e.g., main branch).
 B. Create a branch locally and push it to remote:
 
 Use `git fetch` command  if you did not find your branch.  
@@ -112,6 +111,4 @@ Use the command `git push origin <branch-name> `to push your local branch (<bran
 
 ## FAQs/ Common Issues
 Coming soon.
-=======
-# QC-Yalla-Merchant-App-Mobile
 >>>>>>> f16f33f2a0a0ed8a4ac44202ef39651c8b8e73b8
