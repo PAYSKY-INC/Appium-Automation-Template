@@ -103,7 +103,7 @@ public class AbstractClass extends AndroidBaseTest {
     }
 
     public void scrollDown(int duration) {
-        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(10)"));
+        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(20)"));
     }
 
     public void scrollToTextAndroid(String searchText, int duration) {

@@ -1,5 +1,6 @@
 package io.paysky.qa.utilities;
 
+import net.datafaker.Address;
 import net.datafaker.Faker;
 
 public class DataFaker {
@@ -8,17 +9,19 @@ public class DataFaker {
     public DataFaker() {
         faker = new Faker();
     }
-    public String generateEGMSISDN(){
+    public String egyMobileNumber(){
         return new String[]{"010", "011", "012", "015"}[faker.random().nextInt(4)]
                 + faker.number().digits(8);
     }
-    public String generateUAEMSISDN(){
-        return "05" + faker.number().digits(8);
+
+    public String fullName(){return faker.name().fullName();}
+    public String location(){return faker.name().title();}
+
+    public String generateEmail(String fullName) {
+        String[] nameParts = fullName.split(" ");
+        String username = nameParts[0].toLowerCase() + "." + nameParts[nameParts.length - 1].toLowerCase();
+        return username + "@example.com";
     }
-    public String generatePKMSISDN(){
-        return "03" + faker.number().digits(9);
-    }
-    public String firstAndLastName(){return faker.name().firstName();}
     public String generateRandomGender() {
         // Use faker to generate random genders
         return faker.options().option("Male", "Female");}
@@ -43,12 +46,11 @@ public class DataFaker {
     private static boolean isSequential(int prevDigit, int nextDigit) {
         return Math.abs(prevDigit - nextDigit) == 1;
     }
-    public  String createAmountOfMoney(){ return faker.number().digits(4) ;}
-
    public String generateEGInvalidMobileNumber(){
        return faker.number().digits(11);
     }
 
-   // public String createEmail(){ return faker.expression("#{examplify 'test@test.test'}");}
-    public String createInvalidEmail() {return faker.name().username();}
-}
+    public String buisnessName() {return faker.name().name();}
+
+    }
+
