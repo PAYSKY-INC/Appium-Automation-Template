@@ -1,8 +1,8 @@
-# Yalla Merchant App
+# Mobile_Name App
 
 ## Project Description
 
-Yalla Merchant App is a comprehensive digital platform offering a suite of services used daily, such as money transfers, bill payments, and order requests. This multifunctional platform operates free of additional charges through the use of the Yalla Card, integrating various financial and entertainment services into one seamless experience.
+
 
 ## Getting Started
 
@@ -85,7 +85,7 @@ This section outlines the steps involved in cloning a remote repository, creatin
 
 Open your terminal or command prompt.
 Use the git clone command followed by the URL of the remote repository you want to clone.
-Example: `git clone` https://github.com/PAYSKY-INC/QC-Yalla-Merchant-App-Mobile.git
+Example: `git clone` https://github.com/PAYSKY-INC/Appium-Automation-Template.git
 2. Create a Branch:
 
 There are two approaches to create a branch:

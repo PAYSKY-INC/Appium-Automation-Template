@@ -6,3 +6,5 @@ target/
 *.yml
 allure-results/
 allure-report/
+/.idea/
+/.idea/

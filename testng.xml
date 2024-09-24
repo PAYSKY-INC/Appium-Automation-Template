@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="yalla app">
-    <test name="yalla app collection">
+<suite name="App">
+    <test name="App collection">
         <classes>
-            <class name="io.paysky.qa.yalla.LoginTest"/>
+            <class name="io.paysky.qa.App_name.Test"/>
         </classes>
     </test>
     <listeners>
